@@ -97,7 +97,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/* global */
 html { 
   background: no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -106,8 +106,38 @@ html {
   background-size: cover;
 }
 
-.titlepage {
-  text-align: center;
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*container*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper > * {
+  padding: 20px;
+}
+
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  order: 1;
+  width: 100%;
+  margin-top: 15px;
 }
 
 /* ==========================================================================
