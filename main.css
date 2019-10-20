@@ -98,6 +98,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html { 
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
