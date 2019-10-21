@@ -104,6 +104,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -114,6 +115,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
 /*container*/
 .wrapper {
   display: flex;
@@ -152,9 +158,18 @@ a {
   margin: 0;
   padding-top: .2em;
   position: absolute;
-  
 }
 
+/*small logo on other pages used as home link*/
+.logosmall { 
+  position: absolute;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  font-size: 1em;
+  font-family: 'Rubik Mono One', sans-serif;
+}
 
 
 /*navigation*/
@@ -186,6 +201,19 @@ nav a:hover {
   color: white;
   background: black;
 }
+
+/*problem statement page*/
+.logosmall .logo-top {
+  padding: 0;
+  margin: 0;
+  width: 25%;
+}
+#P2 {
+  margin: 0;
+  padding: 0;
+}
+
+
 
 /* ==========================================================================
    Helper classes
