@@ -125,19 +125,54 @@ a {
   padding: 20px;
 }
 
+/*logo*/
 
+.logo {
+  position: relative;
+  width: 50%;
+  left: 10%;
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+.logo-top {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-bott1 {
+  margin: 0;
+  padding-bottom: 20px;
+  position: absolute;
+}
+
+.logo-bott2 {
+  margin: 0;
+  position: absolute;
+  letter-spacing: .2em;
+}
+
+
+
+/*navigation*/
 nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
 }
 
 nav ul {
   display: flex;
-  order: 1;
   width: 100%;
-  margin-top: 15px;
+  padding: 0;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+}
+
+nav ul li {
+  padding: 5px;
 }
 
 /* ==========================================================================
