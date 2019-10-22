@@ -124,7 +124,7 @@ h1 {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .wrapper > * {
@@ -163,10 +163,10 @@ h1 {
 /*small logo on other pages used as home link*/
 .logosmall { 
   position: absolute;
-  margin: 3em;
+  margin: 2em;
   padding: 0;
   right: 0;
-  font-size: .7em;
+  font-size: 1em;
   font-family: 'Rubik Mono One', sans-serif;
 }
 
