@@ -163,7 +163,7 @@ h1 {
 /*small logo on other pages used as home link*/
 .logosmall { 
   position: absolute;
-  margin: 0;
+  margin: 1em;
   padding: 0;
   right: 0;
   font-size: 1em;
