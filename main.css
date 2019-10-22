@@ -136,7 +136,7 @@ h1 {
 .logo {
   position: relative;
   width: 50%;
-  left: 10%;
+  left: 30;
   margin: 0;
   padding: 0;
   font-size: 5em;
@@ -168,8 +168,8 @@ h1 {
   right: 0;
   font-size: 1em;
   font-family: 'Rubik Mono One', sans-serif;
+  background: black;
 }
-
 
 /*navigation*/
 nav {
