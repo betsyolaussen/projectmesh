@@ -162,11 +162,13 @@ h1 {
 
 /*small logo on other pages used as home link*/
 .logosmall { 
+  background-color: black;
   position: absolute;
   margin: 2em;
   padding: 0;
   right: 0;
   font-size: 1em;
+  height: 7em;
   font-family: 'Rubik Mono One', sans-serif;
 }
 
