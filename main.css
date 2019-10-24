@@ -120,6 +120,10 @@ h1 {
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+h2 {
+   font-family: 'Karla', sans-serif;
+}
+
 /*container*/
 .wrapper {
   display: flex;
@@ -159,6 +163,14 @@ h1 {
   padding-top: .2em;
   position: absolute;
 }
+
+/* hook */
+.hook {
+   width: 50%;
+   display:flex;
+   flex-wrap: wrap; 
+}
+
 
 /*small logo on other pages used as home link*/
 .logosmall { 
