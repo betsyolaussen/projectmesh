@@ -161,9 +161,11 @@ h1 {
 }
 
 /*small logo on other pages used as home link*/
+.logocontainer {
+  align-items: right;
+}
 .logosmall { 
-  background-color: black;
-  position: absolute;
+  
   margin: 2em;
   padding: 0;
   right: 0;
