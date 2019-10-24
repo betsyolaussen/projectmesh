@@ -166,7 +166,7 @@ h2 {
 
 /* hook */
 .hook {
-   width: 50%;
+   width: 300px;
    display:flex;
    flex-wrap: wrap; 
 }
