@@ -127,7 +127,7 @@ h2 {
 /*container*/
 .wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
 }
 
@@ -168,7 +168,7 @@ h2 {
 .hook {
    width: 300px;
    display:flex;
-   flex-wrap: wrap; 
+   flex-direction: row; 
 }
 
 
