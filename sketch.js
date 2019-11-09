@@ -1,7 +1,7 @@
 var myFont;
 
 function preload() {
-    myFont = loadFont('font/RubikMonoOne-Regular');
+    myFont = loadFont('font/RubikMonoOne-Regular.ttf');
 }
 
 /*SKETCH 1*/
@@ -20,6 +20,6 @@ var s = function (p) {
     };
 };
 
-    var myp5 = new p5(s, 'c1');
+    var myp5 = new p5(p, 'c1');
 
     /*SKETCH 2*/
