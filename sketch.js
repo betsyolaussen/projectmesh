@@ -20,6 +20,6 @@ var s = function (p) {
     };
 };
 
-    var myp5 = new p5(p, 'c1');
+    var myp5 = new p5(s, 'c1');
 
     /*SKETCH 2*/
