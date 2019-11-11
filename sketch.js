@@ -1,11 +1,12 @@
 var myFont;
 
 function preload() {
-    myFont = loadFont('font/RubikMonoOne-Regular.ttf');
+    
 }
 
 /*SKETCH 1*/
 var s = function (p) {
+    myFont = loadFont('font/RubikMonoOne-Regular.ttf');
     var x = 500;
     var y = 100;
     p.setup = function(){
@@ -14,7 +15,7 @@ var s = function (p) {
     };
 
     p.draw = function() {
-        p.text("PROBLEM STATEMENT", 0, 30);
+        p.text("PROBLEM STATEMENT", x, 30);
         p.textSize(32);
         p.textFont('myFont');
     };
