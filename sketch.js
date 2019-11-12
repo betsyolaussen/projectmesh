@@ -1,9 +1,5 @@
 var myFont;
 
-function preload() {
-    
-}
-
 /*SKETCH 1*/
 var s = function (p) {
     myFont = loadFont('font/RubikMonoOne-Regular.ttf');
