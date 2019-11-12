@@ -148,8 +148,7 @@ h2 {
 }
 /*container*/
 .wrapper {
-  display: flex;
-  flex-direction: row;
+  position: relative;
   height: 100vh;
 }
 
@@ -160,7 +159,7 @@ h2 {
 /*logo*/
 
 .logo {
-  position: relative;
+  position: absolute;
   width: 50%;
   left: 30;
   margin: 0;
@@ -176,7 +175,7 @@ h2 {
 
 .logo-bott1 {
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 1.25em;
   position: absolute;
 }
 
@@ -188,13 +187,18 @@ h2 {
 
 /* hook */
 .hook {
-   width: 300px;
-   display:flex;
-   flex-direction: row; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
 }
 
 .hook h2 {
-   justify-content: space-between;
+   width: 18.75em;
+   height: 6.25em;
+   margin: auto;
+   background-color: white;
+   padding: 1em;
 }
 
 
