@@ -107,7 +107,6 @@ html {
 }
 
 body {
-  
 }
 
 ul {
@@ -130,6 +129,7 @@ h2 {
 /*background image*/
 .background-img {
   position: relative;
+  margin: auto;
 }
 
 .background-img img {
@@ -142,7 +142,6 @@ h2 {
 /*container*/
 .wrapper {
   display: flex;
-  width: 64em;
   height: 100vh;
 }
 
@@ -155,7 +154,6 @@ h2 {
 .logo {
   justify-content: flex-start;
   width: 50%;
-  margin-left: 0.875em;
   font-size: 5em;
   font-family: 'Rubik Mono One', sans-serif;
 }
@@ -179,48 +177,26 @@ h2 {
 
 /* hook */
 .hook {
-    margin: auto;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
+  margin: auto;
 }
 
 .hook h2 {
    width: 18.75em;
    height: 6.25em;
-   margin: auto;
    background-color: white;
    padding: 1em;
 }
 
-
-/*small logo on other pages used as home link*/
-.logocontainer {
-  align-items: right;
-}
-.logosmall { 
-  
-  margin: 2em;
-  padding: 0;
-  right: 0;
-  font-size: 1em;
-  height: 7em;
-  font-family: 'Rubik Mono One', sans-serif;
-}
-
 /*navigation*/
 nav {
-  position: fixed;
-  justify-content: center;
   font-family: 'Karla', sans-serif;
   font-size: 1.5em;
-  margin-left: 2em;
+  display: flex;
   bottom: 0;
 }
 
 nav ul {
-  display: flex;
-  width: 100%;
+  justify-content: flex-start;
   padding: 0;
   margin: 0;
   text-decoration: underline;
