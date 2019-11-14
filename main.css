@@ -151,10 +151,10 @@ h2 {
 /*logo*/
 header {
   margin: 0;
+  display: relative;
 }
 
 .logo {
-  display: absolute;
   width: 50%;
   font-size: 5em;
   font-family: 'Rubik Mono One', sans-serif;
@@ -179,16 +179,14 @@ header {
 
 /* hook */
 .hook {
-  display: flex;
-  align-items: center
-  justify-content: center;
-  margin: 0;
+  text-align: center;
+  margin: 2em;
 }
 
 .hook h2 {
-   width: 18.75em;
-   background-color: white;
-   padding: 1em;
+  display: inline-block;
+  background-color: white;
+  width: 18.75em;
 }
 
 /*navigation*/
