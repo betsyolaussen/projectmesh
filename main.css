@@ -107,6 +107,7 @@ html {
 }
 
 body {
+  
 }
 
 ul {
@@ -187,7 +188,7 @@ header {
   display: inline-block;
   background-color: white;
   width: 22em;
-  font-size: 2vw;
+  font-size: calc(16px + 0.5vw);
   line-height: 1.2;
 }
 
