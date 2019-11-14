@@ -152,12 +152,10 @@ h2 {
 /*logo*/
 header {
   margin: 0;
-  display: relative;
 }
 
 .logo {
-  width: 50%;
-  font-size: calc(5em + 0.5vw);
+  font-size: 4.5em;
   font-family: 'Rubik Mono One', sans-serif;
 }
 
@@ -188,7 +186,7 @@ header {
   display: inline-block;
   background-color: white;
   width: 22em;
-  font-size: calc(16px + 0.5vw);
+  font-size: 1.5em;
   line-height: 1.2;
 }
 
@@ -321,7 +319,17 @@ header {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media all and (max-width: 600px) {
+@media all and (min-width: 960px) {
+  body{
+      font-size: 18px;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+  body{
+      font-size: 12px;
+  }
+
   nav ul {
     flex-wrap: wrap;
   }
@@ -331,7 +339,19 @@ header {
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 650px) and (min-width: 320px) {
+  body{
+      font-size: 12px;
+  }
+
+  .logo {
+    font-size: 10px;
+  }
+
+  .hook h2 {
+    margin-bottom: 2em;
+  }
+
   nav ul > li {
     flex-basis: 100%;
   }
