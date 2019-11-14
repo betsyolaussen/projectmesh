@@ -186,7 +186,8 @@ header {
 .hook h2 {
   display: inline-block;
   background-color: white;
-  width: 18.75em;
+  width: 25em;
+  font-size: 2vw;
 }
 
 /*navigation*/
