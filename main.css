@@ -192,18 +192,20 @@ header {
 }
 
 /*navigation*/
-nav {
-  position: relative;
+.mainnav {
+  position: fixed;
   bottom: 0;
   width: 100%;
   margin: 0;
 }
-nav ul {
-  position: fixed
+.mainnav a {
+  float: left;
+  display: block;
+  text-align: center;
   font-family: 'Karla', sans-serif;
   font-size: 1.5em;
   text-decoration: underline;
-  padding: 0;
+  padding: .1em;
   margin: 0;
 }
 
