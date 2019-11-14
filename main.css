@@ -150,6 +150,9 @@ h2 {
 }
 
 /*logo*/
+header {
+  margin: 0;
+}
 
 .logo {
   display: absolute;
@@ -181,6 +184,7 @@ h2 {
   align-items: center
   justify-content: center;
   height: 100%;
+  margin: 0;
 }
 
 .hook h2 {
@@ -194,10 +198,11 @@ nav {
   position: fixed;
   bottom: 0;
   width: 100%;
+  margin: 0;
 }
 nav ul {
-  float: left;
   display: block;
+  float: left;
   font-family: 'Karla', sans-serif;
   font-size: 1.5em;
   text-decoration: underline;
