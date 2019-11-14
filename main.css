@@ -209,11 +209,7 @@ header {
   margin: 0;
 }
 
-nav ul li {
-  padding: .1em;
-}
-
-nav a:hover {
+.mainnav a:hover {
   color: white;
   background: black;
 }
