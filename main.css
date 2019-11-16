@@ -151,7 +151,16 @@ hr {
   opacity: 0.5;
 }
 /*container*/
-.wrapper {
+
+#P1 {
+  height: 100vh;
+}
+
+#P2 {
+  height: 100vh;
+}
+
+#P3 {
   height: 100vh;
 }
 
@@ -251,12 +260,18 @@ header {
 .imagegrid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+.imagecontainer {
+  display: inline-block;
+  width: calc(50%-.15em);
+  margin: .5em;
 }
 
 .imagegrid a {
-  display: inline-block;
+  
   margin-bottom: .5em;
-  width: calc(50%-.25em);
+  
   margin-right: .5em;
   text-decoration: none;
   color: black;
@@ -280,6 +295,7 @@ header {
 }
 
 .imagegrid img {
+  object-fit: cover;
   border: none;
   max-width: 100%;
   height: auto;
