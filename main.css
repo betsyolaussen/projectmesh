@@ -246,6 +246,48 @@ header {
   
 }
 
+/*inspiration page*/
+
+.imagegrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagegrid a {
+  display: inline-block;
+  margin-bottom: .5em;
+  width: calc(50%-.25em);
+  margin-right: .5em;
+  text-decoration: none;
+  color: black;
+}
+
+.imagegrid a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.imagegrid a:hover img {
+  transform: scale(1.15);
+}
+
+.imagegrid figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+.imagegrid figcaption {
+  margin-top: 0.9375em;
+}
+
+.imagegrid img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
 
 /* ==========================================================================
    Helper classes
@@ -336,8 +378,18 @@ header {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 50em) {
+  .imagegrid a {
+    width: calc(25% - 0.375em);
+  }
+  
+  .imagegrid a:nth-of-type(2n) {
+    margin-right: .5em;
+  }
+  
+  .imagegrid a:nth-of-type(4n) {
+    margin-right: 0;
+  }
 }
 
 @media all and (min-width: 960px) {
