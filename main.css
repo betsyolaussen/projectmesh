@@ -148,7 +148,7 @@ hr {
 }
 .background-img img {
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 /*container*/
 
@@ -161,10 +161,6 @@ hr {
 }
 
 #P3 {
-  height: 100vh;
-}
-
-#P5 {
   height: 100vh;
 }
 
@@ -327,13 +323,19 @@ header {
 
 /* Research Page */
 
+.bibliography {
+  width: 50%;
+  margin: auto;
+}
+
 .bibliography ul {
   background-color: white;
-  padding: 0 2em;
+  padding: 1em 2em;
 }
 
 .bibliography a {
   text-decoration: underline;
+  
 }
 
 /*
