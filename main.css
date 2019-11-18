@@ -164,6 +164,22 @@ hr {
   height: 100vh;
 }
 
+#P5 {
+  height: 100vh;
+}
+
+#P6 {
+  height: 100vh;
+}
+
+#P7 {
+  height: 100vh;
+}
+
+#P8 {
+  height: 100vh;
+}
+
 .wrapper > * {
   margin: 1.25em;
 }
@@ -216,6 +232,7 @@ header {
   bottom: 0;
   width: 100%;
   margin: 0;
+  z-index: 10;
 }
 .mainnav a {
   float: left;
@@ -257,30 +274,84 @@ header {
 
 /*inspiration page*/
 
+.grid-container {
+  max-width: 90em;
+  margin: 0 auto;
+  z-index: -5;
+}
+
 .imagegrid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+/*
 .imagegrid a:nth-of-type(2n) {
   margin-right: 0;
 }
+*/
 
 .imagecontainer {
-  width: 25%;
+  
+  width: 20em;
+  height: 20em;
   margin: .5em;
 }
+
+.imagecontainer img {
+  position: absolute;
+  object-fit: fill;
+  
+}
+
+.text-wrapper {
+  position: relative;
+  width: 16em;
+  height: 16em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.text-wrapper:hover {
+  transition: all 0.8s ease;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+/* Research Page */
+
+.bibliography ul {
+  background-color: white;
+  padding: 0 2em;
+}
+
+.bibliography a {
+  text-decoration: underline;
+}
+
+/*
+
+  margin: 0;
+  padding: 0;
+  
 
 .imagecontainer a {
   text-decoration: none;
   color: black;
 }
 
+
 .imagecontainer img {
   width: 25%;
   position: absolute;
-  /*
+  
   position: absolute;
   width: 25%;
   */
@@ -291,28 +362,8 @@ header {
   background: #ccc;
   transition: transform .2s ease-in-out;
   */
-}
 
-.text-wrapper {
-  position: relative;
-  width: 19.9em;
-  height: 19.9em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-  opacity: 0;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-.text-wrapper:hover {
-  transition: all 0.8s ease;
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 1;
-}
 
 /*transform: scale(1.02);*/
 
@@ -406,22 +457,8 @@ header {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 50em) {
-  .imagegrid a {
-    width: calc(25% - 0.375em);
-  }
-  
-  .imagegrid a:nth-of-type(2n) {
-    margin-right: .5em;
-  }
-  
-  .imagegrid a:nth-of-type(4n) {
-    margin-right: 0;
-  }
-}
-
 @media all and (min-width: 960px) {
-  body{
+  body {
       font-size: 18px;
   }
 }
@@ -444,9 +481,10 @@ header {
     justify-content: flex-end;
     text-shadow: 1px 1px 1px #000;
 }
+}
 
 
-@media all and (max-width: 650px) and (min-width: 320px) {
+@media all and (max-width: 600px) and (min-width: 320px) {
   body{
       font-size: 12px;
   }
@@ -472,7 +510,13 @@ header {
     justify-content: flex-end;
     text-shadow: 1px 1px 1px #000;
 }
+}
 
+@media all and (max-width: 320px) {
+  body{
+    font-size: 12px;
+}
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
