@@ -98,8 +98,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* global */
-html {
-  background: no-repeat center center fixed;
+html { 
+  background: no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -199,7 +199,7 @@ header {
 .logo-bott1 {
   margin: 0em;
   padding: 0em;
-
+  
 }
 
 .logo-bott2 {
@@ -249,6 +249,21 @@ header {
 
 /*problem statement page*/
 
+.problem {
+  width: 50em;
+  margin: auto;
+
+}
+
+.problem ul {
+  background-color: white;
+  padding: 2em;
+  line-height: 1.5;
+}
+
+
+/*why think about it page*/
+
 #P2 {
   margin: 0;
   padding: 0;
@@ -258,43 +273,60 @@ header {
   text-align: left;
   width: 75%;
   margin: auto;
-
+  
 }
 
 .content p {
   display: inline-block;
   background-color: white;
   padding: 2em;
-
+  
 }
 
 /*inspiration page*/
 
-.imagegrid {
-  display: grid;
-  grid-gap: .3125em;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: auto;
+.grid-container {
+  max-width: 90em;
+  margin: 0 auto;
+  z-index: -5;
+}
 
+.imagegrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .imagecontainer {
-  position: relative;
+  
+  width: 20em;
+  height: 20em;
+  margin: .5em;
 }
 
-.text-wrapper .text {
+.imagecontainer img {
   position: absolute;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  opacity: 0;
-
+  object-fit: fill;
+  
 }
 
-.text-wrapper img .text:hover {
+.text-wrapper {
+  position: relative;
+  width: 16em;
+  height: 16em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.text-wrapper:hover {
   transition: all 0.8s ease;
-  background-color: rgba(241, 18, 11, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   opacity: 1;
 }
 
@@ -312,14 +344,14 @@ header {
 
 .bibliography a {
   text-decoration: underline;
-
+  
 }
 
 /*
 
   margin: 0;
   padding: 0;
-
+  
 
 .imagecontainer a {
   text-decoration: none;
@@ -330,13 +362,13 @@ header {
 .imagecontainer img {
   width: 25%;
   position: absolute;
-
+  
   position: absolute;
   width: 25%;
   */
-
+  
   /*
-
+  
   margin: .5em;
   background: #ccc;
   transition: transform .2s ease-in-out;
@@ -436,40 +468,25 @@ header {
    Modify as content requires.
    ========================================================================== */
 
-@media all and (max-width: 1178px) and (min-width: 968px) {
+@media all and (min-width: 960px) {
   body {
-      font-size: 16px;
-  }
-
-  .imagegrid {
-    grid-template-columns: repeat(2, 50%);
-  }
-
-  .imagecontainer {
-    justify-self: center;
+      font-size: 18px;
   }
 }
 
 @media all and (max-width: 968px) and (min-width: 600px) {
   body{
-
+      font-size: 12px;
   }
 
   nav ul {
     flex-wrap: wrap;
   }
-
+  
   nav ul > li {
     flex-basis: 50%;
   }
 
-  .imagegrid {
-    grid-template-columns: repeat(2, 50%);
-  }
-
-  .imagecontainer {
-    justify-self: center;
-  }
   .text-wrapper {
     opacity: 1;
     justify-content: flex-end;
@@ -494,17 +511,9 @@ header {
   nav ul > li {
     flex-basis: 100%;
   }
-
+  
   .movingforward {
     order: 1;
-  }
-
-  .imagegrid {
-    grid-template-columns: repeat(1, 100%);
-  }
-
-  .imagecontainer {
-    justify-self: center;
   }
 
   .text-wrapper {
@@ -591,3 +600,4 @@ header {
     page-break-after: avoid;
   }
 }
+
