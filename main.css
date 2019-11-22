@@ -160,7 +160,7 @@ hr {
   height: 100vh;
 }
 
-#P3 {
+#P5 {
   height: 100vh;
 }
 
@@ -325,9 +325,15 @@ header {
 }
 
 .text-wrapper:hover {
-  transition: all 0.8s ease;
-  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.6s ease;
+  background: rgba(241, 18, 11, 0.9);
+  font-family: 'Karla', sans-serif;
   opacity: 1;
+}
+
+.text-wrapper .text {
+  font-size: 2em;
+
 }
 
 /* Research Page */
