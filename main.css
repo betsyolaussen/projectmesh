@@ -160,15 +160,11 @@ hr {
   height: 100vh;
 }
 
-#P5 {
+#P3 {
   height: 100vh;
 }
 
 #P6 {
-  height: 100vh;
-}
-
-#P7 {
   height: 100vh;
 }
 
@@ -235,7 +231,7 @@ header {
   display: block;
   text-align: center;
   font-family: 'Karla', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-decoration: underline;
   padding: .1em;
   margin: 0;
@@ -286,7 +282,7 @@ header {
 /*inspiration page*/
 
 .grid-container {
-  max-width: 90em;
+ 
   margin: 0 auto;
   z-index: -5;
 }
@@ -353,32 +349,36 @@ header {
   
 }
 
-/*
+/* Process page */
 
-  margin: 0;
-  padding: 0;
-  
 
-.imagecontainer a {
-  text-decoration: none;
-  color: black;
+
+/* final page */
+
+.weblink {
+  font-family: 'Karla', sans-serif;
 }
 
+.weblink h2 {
+  text-align: center;
+  text-decoration: underline;
+}
 
-.imagecontainer img {
-  width: 25%;
-  position: absolute;
-  
-  position: absolute;
-  width: 25%;
-  */
-  
-  /*
-  
-  margin: .5em;
-  background: #ccc;
-  transition: transform .2s ease-in-out;
-  */
+.weblink h2:hover {
+  color: red;
+}
+
+.zinegrid {
+  display: grid;
+  grid-gap: .3125em;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: auto;
+}
+
+.zinegrid img {
+  width: 50%;
+  margin: auto;
+}
 
 
 
