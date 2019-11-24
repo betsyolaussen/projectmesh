@@ -330,6 +330,19 @@ header {
 
 /* Process page */
 
+.processworkingimages {
+  display: grid;
+  grid-gap: .3125em;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(1, auto);
+  align-items: center;
+  justify-items: center;
+}
+
+.processworkingimages img {
+  width: 100%;
+}
+
 .processgrid {
   display: grid;
   grid-gap: .3125em;
