@@ -337,6 +337,11 @@ header {
 
 /* Process page */
 
+.processlogos {
+  display: block;
+  width: 33%;
+  margin: auto;
+}
 .processgrid {
   display: grid;
   grid-gap: .3125em;
@@ -373,13 +378,13 @@ header {
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 800px;
+    max-width: 40em;
     position: relative;
     margin: auto;
   }
   
   /* Hide the images by default */
-  .mySlides {
+  .mySlides, .mySlides2 {
     display: none;
   }
   
