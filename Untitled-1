@@ -1,0 +1,188 @@
+<section id="P3" class="wrapper">
+    <div class="think">
+      <h1>WHY THINK ABOUT IT?</h1>
+    </div>
+
+    <div class="content">
+        <p>
+            The use of technology and the role it plays in my relationships is something I find increasingly 
+            important to think about. Beginning during my undergraduate years in the Art program at the 
+            University of Wisconsin- Eau Claire, I have been making art about technology as a way to discuss
+            and process how I feel technology impacts, both positively and negatively, my relationships and 
+            other human interactions I see in my communities. <br><br>
+            Technology has advanced immensely in the last two hundred years, and personal-scale technology has 
+            advanced quite rapidly in the last thirty or so years. This has been personal computers, smartphones, 
+            watches, smart homes, classroom technology, and of course larger scale technological advances that 
+            impact medicine, travel, science, and military, which I focus on less in my work. As the presence of 
+            technology continues to build, the need to consider how technology interacts with and impacts our 
+            human society becomes more imperative. <br><br>
+            In my work thus far, including Project MESH, I consider and discuss the presence and impact of technology 
+            on small scale interpersonal interactions-- the relationship with the self, with other individuals, or with 
+            small groups or communities. Technology can facilitate the building, deepening, or maintaining of 
+            interpersonal relationships, which is something we are all aware of at this point. However, it can also 
+            create distance, a feeling of absence, or even alienation in our relationships, both those we forge in 
+            person or online. I want to create a space where folks can discuss and share work about both the positive 
+            and negative outcomes of technology’s presence in our relationships, but I think it is particularly 
+            important to make space to think intentionally and discuss openly the way that technology sometimes hinders 
+            our ability to feel connected or present with one another.
+        </p>
+      </div>
+
+  </section>
+
+
+
+  <div class="imagegrid">
+          <div class="imagecontainer">
+            <a href="https://www.artsy.net/artwork/alfredo-jaar-be-afraid-of-the-enormity-of-the-possible-1" target="_blank">
+              <img src="images/alfredojaar.jpeg">
+              <span class="text-wrapper">
+                <span class="text">Alfredo Jaar<br>"Be Afraid of the Enormity of the Possible"</span>
+              </span>
+            </a>
+          </div>
+  
+          <div class="imagecontainer">
+            <a href="https://lauren-mccarthy.com/Follower" target="_blank">
+                <img src="images/follower.png">
+                <span class="text-wrapper">
+                    <span class="text">Lauren McCarthy<br>"Follower"</span>
+                </span>
+            </a>
+          </div>
+  
+          <div class="imagecontainer">
+            <a href="https://www.303gallery.com/gallery-exhibitions/doug-aitken11/press-release" target="_blank">
+                <img src="images/newera.jpeg">
+                <span class="text-wrapper">
+                    <span class="text">Doug Aitken<br>"New Era"</span>
+                </span>
+            </a>
+          </div>
+  
+          <div class="imagecontainer">
+            <a href="https://allblackzine.com/" target="_blank">
+                <img src="images/abz.png">
+                <span class="text-wrapper">
+                    <span class="text">All Black Zine</span>
+                </span>
+            </a>
+          </div>
+  
+          <div class="imagecontainer">
+            <a href="https://www.mit.edu/~sturkle/" target="_blank">
+                <img src="images/alonetogether.jpg">
+                <span class="text-wrapper">
+                    <span class="text">Sherry Turkle<br><i>Alone Together</i></span>
+                </span>
+            </a>
+          </div>
+  
+          <div class="imagecontainer">
+            <a href="https://www.newyorker.com/contributors/jia-tolentino" target="_blank">
+                <img src="images/trickmirror.jpg">
+                <span class="text-wrapper">
+                    <span class="text">Jia Tolentino<br><i>Trick Mirror</i></span>
+                </span>
+            </a>
+          </div>
+  
+          <div class="imagecontainer">
+            <a href="https://www.nytimes.com/interactive/2018/02/09/technology/the-rise-of-a-visual-internet.html" target="_blank">
+                <img src="images/posttextfuture.png">
+                <span class="text-wrapper">
+                    <span class="text">NYT Article<br>"Welcome to the Post-Text Future"</span>
+                </span>
+            </a>
+          </div>
+  
+          <div class="imagecontainer">
+            <a href="https://www.betsyolaussen.com/you-dont-even-notice-it-anymore" target="_blank">
+                <img src="images/ydenia.png">
+                <span class="text-wrapper">
+                    <span class="text">Betsy Olaussen<br>"You Don't Even Notice It Anymore"</span>
+                </span>
+            </a>
+          </div>
+      </div>
+
+
+      .grid-container {
+ 
+  margin: 0 auto;
+  z-index: -5;
+}
+
+.imagegrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagecontainer {
+  
+  width: 20em;
+  height: 20em;
+  margin: .5em;
+}
+
+.imagecontainer img {
+  position: absolute;
+  object-fit: fill;
+  
+}
+
+.text-wrapper {
+  position: relative;
+  width: 16em;
+  height: 16em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.text-wrapper:hover {
+  transition: all 0.6s ease;
+  background: rgba(241, 18, 11, 0.9);
+  font-family: 'Karla', sans-serif;
+  opacity: 1;
+}
+
+.text-wrapper .text {
+  font-size: 2em;
+
+}
+
+<div class="content">
+      <p>
+          During my undergraduate art program, I focused a lot on identity and how technology plays a role in 
+          forming our physical identities, not just our online identities. Over the course of my Masters program 
+          at MCAD, I have shifted my focus towards how the overuse of technology impacts our relationships, 
+          both with ourselves in shaping our identities, and our relationships with others. <br><br>
+
+          When I began creating MESH, I really wanted the name of the project to have roots in technology itself, 
+          and technology’s relationship to humans. I began thinking about how humans network with each other, and 
+          also the idea of computer networking. It struck me that this network pattern exists in many places. 
+          The massive and completely invisible infrastructure of wireless networking really fascinates me, so I 
+          started investigating recent advancements in wireless networking. One such advancement is the mesh wireless 
+          network. A mesh network is a network of wireless routers that create a highly reliable connection for a 
+          large area, like an entire home or office space. Companies like Eero and Google, among others, are producing 
+          and selling these mesh network setups to consumers. This type of wireless network intrigued me because it 
+          seemed to mirror, or actualize, the same pattern that human networks have. Our relationships and communities 
+          are built on these webs of connectedness.
+      </p>
+    </div>
+
+
+
+    Project MESH is a space to build community and dialogue around the topic of humans’ relationship
+          to technology. I hope to highlight and deepen the benefits of technology in our relationships
+          and encourage awareness and mindfulness of the drawbacks, in order to ultimately strengthen our
+          relationships with each other, as humans. Moving forward, I hope to produce more volumes of
+          the MESH zine, encourage more people to submit work and join the conversation, and eventually
+          use the ideas behind Project MESH to create an in-person interactive installation.

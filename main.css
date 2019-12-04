@@ -130,7 +130,7 @@ h2 {
 p {
   font-family: 'Karla', sans-serif;
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1.4em;
 }
 hr {
   width: 50%;
@@ -167,8 +167,16 @@ hr {
   height: 100vh;
 }
 
+#P8 {
+  height: 100vh;
+}
+
 .wrapper > * {
   margin: 1.25em;
+}
+
+.sections h1 {
+  font-size: 3em;
 }
 
 .content {
@@ -187,7 +195,7 @@ hr {
 
 .line {
   border-left: 2px solid black;
-  height: 25em;
+  height: 20em;
   position: relative;
   left: 50%;
   width: 2em;
@@ -199,7 +207,7 @@ header {
 }
 
 .logo {
-  font-size: 4em;
+  font-size: 4.3em;
   font-family: 'Rubik Mono One', sans-serif;
   text-decoration: none;
 }
@@ -231,7 +239,7 @@ header {
   display: inline-block;
   background-color: white;
   width: 22em;
-  font-size: 1.5em;
+  font-size: 2.2em;
   line-height: 1.2;
 }
 
@@ -248,7 +256,7 @@ header {
   display: block;
   text-align: center;
   font-family: 'Karla', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   text-decoration: underline;
   padding: .1em;
   margin: 0;
@@ -459,7 +467,25 @@ header {
     to {opacity: 1}
   }
 
+  .final {
+    text-align: center;
+    
+  }
 
+  .final p {
+    display: inline-block;
+    font-size: 2.2em;
+    background-color: transparent;
+  }
+
+  .thankyou {
+    text-align: center;
+  }
+
+  .thankyou p {
+    display: inline-block;
+    font-size: 4em;
+  }
 
 
 
